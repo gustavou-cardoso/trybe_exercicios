@@ -1,0 +1,19 @@
+h1, p, h2{
+    text-align: center;
+}
+
+li:hover {
+    background-color: lightgoldenrodyellow;   
+}
+
+li:active {
+    font-family: monospace,sans-serif;
+    color: darkslateblue;
+}
+
+ul, ol {
+    list-style: none;
+}
+h1, h2{
+    color: darkslategrey;
+}
