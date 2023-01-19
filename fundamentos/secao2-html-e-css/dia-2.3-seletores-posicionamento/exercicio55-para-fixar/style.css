@@ -27,6 +27,42 @@ li em {
     font-weight: bold;
 }
 
+.blue {
+    color: blue;
+}
+
+.pink {
+    background-color: pink;
+}
+
+#ajudanos li a:hover {
+    font-weight: 800;
+}
+
+#ajudanos li a[href*="stackoverflow"] {
+    color: orange;
+}
+
+#ajudanos li a[href*=w3schools] {
+    color:green
+}
+
+#ajudanos li a[href*=developer] {
+    color: black;
+}
+
+#ajudanos li a[href*=devdocs] {
+    color:yellow
+}
+
+#ajudanos li  a[href*=trybe] {
+    color: green;
+}
+
+    
+ 
+ 
+
 
 
 
