@@ -1,11 +1,8 @@
-const a = 5;
-const b = 8;
-const c = 10;
+const a = 10;
+const b = 20;
 
-if (a>b && a>c) {
-console.log("letra a")
-} else if (b>a && b>c) {
-console.log("letra b")
-} else {
-    console.log("letra c")
-}
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a % b);
