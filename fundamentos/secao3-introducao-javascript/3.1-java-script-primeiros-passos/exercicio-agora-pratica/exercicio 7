@@ -1,0 +1,31 @@
+
+let aliquotaINSS;
+let aliquotaIR;
+
+const salariobruto = 2600.00;
+
+if (salariobruto <= 1556.94) {
+  aliquotaINSS = salariobruto * 0.08;
+} else if (salariobruto <= 2594.92) {
+  aliquotaINSS = salariobruto * 0.09;
+} else if (salariobruto <= 5189.82) {
+  aliquotaINSS = salariobruto * 0.11;
+} else {
+  aliquotaINSS = 570.88;
+}
+
+const salariobase = salariobruto - aliquotaINSS;
+
+if (salariobase <= 1903.98) {
+  aliquotaIR = 0;
+} else if (salariobase <= 2826.65) {
+  aliquotaIR = (salariobase * 0.075) - 142.80;
+} else if (salariobase <= 3751.05) {
+  aliquotaIR = (salariobase * 0.15) - 354.80;
+} else if (salariobase <= 4664.68) {
+  aliquotaIR = (salariobase * 0.225) - 636.13;
+} else {
+  aliquotaIR = (salariobase * 0.275) - 869.36;
+};
+
+console.log("Salário: " + (salariobase - aliquotaIR)); 
