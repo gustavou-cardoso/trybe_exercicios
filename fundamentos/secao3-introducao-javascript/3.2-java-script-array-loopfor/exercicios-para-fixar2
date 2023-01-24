@@ -1,0 +1,5 @@
+let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+for (nomes of names) {
+    nomes = 0; nomes < names; nomes++;
+    console.log(nomes);
+}
