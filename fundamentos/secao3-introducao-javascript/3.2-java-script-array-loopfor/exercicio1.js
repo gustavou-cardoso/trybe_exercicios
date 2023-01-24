@@ -26,3 +26,12 @@ console.log("valor maior que 20");
 else  {
     console.log("valor menor que 20");
 }
+
+// Exercicio 5
+let maior = 0;
+for (let index = 0; index < numbers.length; index++) {
+    if (numbers[index] > maior) {
+        maior = numbers[index];
+    }
+}
+console.log(maior);
