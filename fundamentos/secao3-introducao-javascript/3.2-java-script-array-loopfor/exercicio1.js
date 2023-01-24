@@ -35,3 +35,35 @@ for (let index = 0; index < numbers.length; index++) {
     }
 }
 console.log(maior);
+
+// Exercicio 6
+let resulta = 0;
+for (let index = 0; index < numbers.length; index += 1) {
+    if (numbers[index] % 2 !== 0) {
+        resulta += 1;
+        }
+    }
+    if (resulta === 0) {
+        console.log("nenhum valor ímpar encontrado")
+    }
+    else {
+        console.log(resulta);
+    }
+
+    // Exercicio 7
+let menor = numbers [0];
+for (let index = 1; index < numbers.length; index++) {
+  if (numbers[index] < menor) {
+    menor = numbers[index];
+  }
+}
+console.log(menor);
+
+// Exercício 8
+let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+console.log(numeros);
+
+// Exercicio 9
+for (let index = 0; index < numeros.length; index++) {
+    console.log(numeros[index] / 2)
+}
